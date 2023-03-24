@@ -73,10 +73,12 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    justify-items: center;
+    margin: 0 auto;
 }
 
 .tile2 {
-    width: 30%;
+    width: 80%;
     margin-bottom: 20px;
 }
 
@@ -89,4 +91,12 @@ figcaption {
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.footer_text {
+    background: black;
+    color: gray;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
