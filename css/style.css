@@ -91,6 +91,7 @@ figcaption {
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 10px;
+    text-align: center;
 }
 
 .footer_text {
@@ -102,20 +103,4 @@ figcaption {
 }
 
 /* Desktop */
-@media screen and (min-width: 700px) {
-    .tiles1 {
-        justify-content: space-around;
-    }
-
-    .tile1 {
-        width: 30%;
-    }
-
-    .tiles2 {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .tile2 {
-        width: 30%;
-    }
-}
+@media screen and (min-width: 700px) {}
