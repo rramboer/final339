@@ -85,6 +85,7 @@ h1 {
 .tile2 img {
     width: 100%;
     height: auto;
+    border-radius: 30%;
 }
 
 figcaption {
@@ -110,5 +111,9 @@ figcaption {
 
     .tiles2 {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .tile2 img {
+        border-radius: 10%;
     }
 }
