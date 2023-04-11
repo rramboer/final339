@@ -90,3 +90,5 @@ figcaption {
         border-radius: 10%;
     }
 }
+
+/* PREFERS REDUCED MOTION IS HANDLED IN SCRIPT.JS */
