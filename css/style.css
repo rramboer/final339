@@ -64,18 +64,11 @@ figcaption {
     text-align: center;
 }
 
-.footer_text {
-    background: black;
-    color: gray;
-    text-align: center;
-    padding: 10px;
-}
-
 /* Tablet */
-@media screen and (min-width: 450px) {}
+@media screen and (min-width: 600px) {}
 
 /* Desktop */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
     figcaption {
         font-size: 1.5em;
         text-align: left;
