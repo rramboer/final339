@@ -7,72 +7,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan's Favorite Favorites</title>
     <!-- <link rel="stylesheet" href="css/html5reset.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico">
 </head>
 
 <body>
-    <div class="skip">
-        <a tabindex="0" href="#main">Skip to Main Content</a>
-    </div>
-    <!-- Navigation Pane -->
     <header>
-        <nav>
-            <a href="index.html" class="button">Home</a>
-            <a href="drinks.html" class="button">Drinks</a>
-            <a href="sports.html" class="button onpage">Sports</a>
+        <div class="skip">
+            <a tabindex="0" href="#main">Skip to Main Content</a>
+        </div>
+
+        <nav class="navbar navbar-dark navbar-expand-sm bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Fav Favs</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="drinks.html">Drinks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="sports.html"><strong>Sports</strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-        <h1>Ryan's Favorite Sports</h1>
-        <p>
+        <h1 class="display-3 m-5 text-center" tabindex="0">Ryan's Favorite Sports</h1>
+        <p class="fs-5 m-5" tabindex="0">
             Here are some of my favorite sports, in no particular order! I love to watch them, although there is nothing
             like playing them!
         </p>
         <div class="tiles2">
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/hockey.png" alt="The creator of this website playing hockey">
                 <figcaption>Hockey</figcaption>
             </figure>
 
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/tennis.jfif" alt="Novak Djokovic celebrating while playing tennis">
                 <figcaption>Tennis</figcaption>
             </figure>
 
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/vball.jfif" alt="Two blockers jumping up to block a hitter">
                 <figcaption>Volleyball</figcaption>
             </figure>
 
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/table_tennis.png" alt="Table tennis match in the Rio Olympic Games">
                 <figcaption>Table Tennis</figcaption>
             </figure>
 
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/formula_one.jfif" alt="Diagonal profile of a Red Bull Formula One car">
                 <figcaption>Formula One</figcaption>
             </figure>
 
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/ski_jumping.jpg" alt="Ski jumper flying through the air">
                 <figcaption>Ski Jumping</figcaption>
             </figure>
 
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/mountain_biking.jpg"
                     alt="A father and his son riding down a deciduous forest mountain bike trail">
                 <figcaption>Mountain Biking</figcaption>
             </figure>
 
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/beach_volleyball.jpeg" alt="A beach volleyball resting on the sand">
                 <figcaption>Beach Volleyball</figcaption>
             </figure>
 
-            <figure class="tile2">
+            <figure class="tile2" tabindex="0">
                 <img src="img/baseball.jpg" alt="Major League Baseball player swinging a bat at a baseball">
                 <figcaption>Baseball</figcaption>
             </figure>
@@ -80,7 +104,7 @@
     </main>
 
     <footer>
-        <div class="footer_text">Created by Ryan</div>
+        <div class="footer_text" tabindex="0">Created by Ryan</div>
     </footer>
 
 </body>

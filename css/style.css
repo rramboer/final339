@@ -23,36 +23,6 @@ body {
     top: 20px;
 }
 
-a.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007fff;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-right: 10px;
-    box-sizing: border-box;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-a.button:hover {
-    background-color: #004385;
-    outline: 1px solid darkgray;
-    box-sizing: border-box;
-}
-
-.onpage {
-    background-color: #004385;
-    outline: 3px solid white;
-    box-sizing: border-box;
-}
-
-h1 {
-    font-size: 2em;
-}
-
 .tiles1 {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +71,9 @@ figcaption {
     text-align: center;
     padding: 10px;
 }
+
+/* Tablet */
+@media screen and (min-width: 450px) {}
 
 /* Desktop */
 @media screen and (min-width: 700px) {
