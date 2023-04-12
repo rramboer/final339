@@ -29,13 +29,14 @@ body {
 }
 
 .tile1 {
-    width: 30%;
+    width: 60%;
     margin-bottom: 20px;
 }
 
 .tile1 img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 .tiles2 {
@@ -70,16 +71,30 @@ figcaption {
 
 /* Tablet */
 @media screen and (min-width: 500px) {
+    .tiles1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .tile1 {
+        width: 20%;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .tile1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 30%;
+    }
+
     .tiles2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
         justify-items: space-around;
-    }
-
-    .tile2 {
-        width: 70%;
-        margin-bottom: 20px;
     }
 
     .tile2 img {
@@ -89,6 +104,10 @@ figcaption {
         border: 2px solid #0275d8;
     }
 
+    figcaption {
+        font-size: 1.5em;
+    }
+
     .hidden {
         display: block;
     }
@@ -96,8 +115,27 @@ figcaption {
 
 /* Desktop */
 @media screen and (min-width: 900px) {
+    .tiles1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tile1 {
+        width: 15%;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .tile1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
     figcaption {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 
     .tiles2 {
